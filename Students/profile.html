@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Profile</title>
+    <link rel="stylesheet" href="student.css">
 </head>
 <body>
-    <h1>Student Profile</h1>
-    <table cellpadding = "10">
+    <h1 class="student-heading">Student Profile</h1>
+    <div class="student-card">
+    <table >
         <tr>
-            <td><img src="media/pngtree-graduating-student-icon-abstract-illustration-vector-png-image_6858327.png" height="130" width="130"></td>
-            <td><p>Welcome to Your Student Profile. <br> Here you can view your courses and results</p></td>
+            <td><img src="media/pngtree-graduating-student-icon-abstract-illustration-vector-png-image_6858327.png" class="student-img"></td>
+            
         </tr>
     </table>
     <table>
         <tr>
             <td>
-                <ul>
+                <ul class="list-style">
                     <li><a href="view_courses.html"><p>Courses</p></a></li>
                     <li><a href="view_report.html"><p>Report</p></a></li>
                     <li><a href="view_result.html"><p>Results</p></a></li>
@@ -26,7 +28,7 @@
     </table>
     <hr>
     <h1>Student Details</h1>
-    <table border="1" cellpadding = "10">
+    <table border="1" >
         <tr>
             <td><b>Name</b></td>
             <td><b>E-mail</b></td>
@@ -36,5 +38,6 @@
             <td><i>Harshitha@gmail.com</i></td>
         </tr>
     </table>
+    </div>
 </body>
 </html>

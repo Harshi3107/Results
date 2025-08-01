@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Profile</title>
+    <link rel="stylesheet" href="Admin.css">
 </head>
 <body>
-    <h1>Admin Profile</h1>
-    
+    <h1 class="admin-heading">Admin Profile</h1>
+    <div class="admin-card">
         <table>
             <tr>
-                <td><img src="media/admin.logo.png" height="130" width="130"></td>
-                <td><p>Welcome to admin profile. Here you can manage users, results and announcements</p></td>
+                <td><img src="media/admin.logo.png" class="admin-img" ></td>
+                
             </tr>
             <tr>
                 <td>
-                <ul>
-                    <li>Manage Users</li>
-                    <li>Post Announcements</li>
-                    <li>View Logs</li>
+                <ul class="list-style">
+                    <li><a href="user_mgmt.html">Manage Users</a></li>
+                    <li><a href="admin_index.html">Post Announcements</a></li>
+                    <li><a href="course_mgmt.html">View Logs</a></li>
                 </ul>
                 </td>
             </tr>
@@ -27,7 +28,7 @@
     <hr>
     <h1>Admin Details</h1>
     
-        <table border="1" cellpadding ="10">
+        <table >
             <tr>
                 <td><b>Name</b></td>
                 <td><b>Email</b></td>
@@ -37,6 +38,6 @@
                 <td><u>Sekhar@domain.in</u></td>
             </tr>
         </table>
-   
+   </div>
 </body>
 </html>
