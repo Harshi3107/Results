@@ -1,0 +1,159 @@
+body{
+  margin:0;
+  padding-left: 30px;
+  background:white;
+}
+.firstsection{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+.cyberimg{
+  height: 120px;
+  width: 120px;
+  border-radius: 2px;
+}
+.card1{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px; 
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
+    margin-bottom: 19px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+.card1:hover{
+  border:1px solid rgb(237, 150, 150);
+
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0.3 );
+
+}
+.cloudcostimg{
+  height: 120px;
+  width: 120px;
+  border-radius: 2px;
+}
+.card2{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px; 
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
+    margin-bottom: 19px;
+    transition: transform 0.3s, box-shadow 0.3s;
+margin-left: 20px;
+margin-right: 20px;
+}
+.card2:hover{
+  border:1px solid rgb(237, 150, 150);
+ 
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0.3 );
+
+}
+.aihealthimg{
+  height: 120px;
+  width: 120px;
+  border-radius: 2px;
+}
+.card3{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px; 
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
+    margin-bottom: 19px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+.card3:hover{
+  border:1px solid rgb(237, 150, 150);
+ 
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0.3 );
+
+}
+.smartretailimg{
+  height: 120px;
+  width: 120px;
+  border-radius: 2px;
+}
+.secondsection{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-evenly;
+}
+.card4{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px; 
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
+    margin-bottom: 19px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right: 20px;
+
+}
+.card4:hover{
+  border:1px solid rgb(237, 150, 150);
+ 
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0.3 );
+
+}
+.iot-img{
+  height: 120px;
+  width: 120px;
+  border-radius: 2px;
+}
+.card5{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px; 
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
+    margin-bottom: 19px;
+    transition: transform 0.3s, box-shadow 0.3s;
+   margin-bottom: 20px;
+}
+.card5:hover{
+  border:1px solid rgb(237, 150, 150);
+ 
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0.3 );
+
+}
