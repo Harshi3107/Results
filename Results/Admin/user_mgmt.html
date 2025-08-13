@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Managment</title>
+    <link rel="stylesheet" href="user_mgmt.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+        <h1>User Registration</h1>
+        <div class="row1">
+        <div class="form-group">
+        <label for="name" >Name:</label>
+        <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="Role">Role:</label>
+            <select name="Role" id="Role">
+                <option value="admin">Admin</option>
+                <option value="faculty">Faculty</option>
+                <option value="student">Student</option>
+            </select>
+        </div>
+        </div>
+        <div class="row2">
+        <div class="pw">
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <div class="form-group">
+            <button>Register User</button>
+        </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
